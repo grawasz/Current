@@ -1,1 +1,46 @@
+G11-g:
+    ☐ Średnia cena według wzoru (LDNI_FAKT(1) * c(1) + … + LDNI_FAKT(n) * c(n)) / ( LDNI_FAKT(1) + … + LDNI_FAKT(n) )
+
+#PRV:
+    ✔ Tagliatelle z kurczakiem i szpinakiem @done(19-06-24 14:01)
+    ✔ Sałatka z kurczakiem w panierce     @done(19-06-24 14:39)
+
+# JPK:
+## STG:
+    ✔ Przenieść wprost z SRC @done(19-06-12 15:57)
+## DM:
+☐ Table i view. Połączyć z wymiarami:
+    ## Wymiary:
+    ✔ OKSP_ID @done(19-06-12 15:08)
+    ✔ INST_KOD @done(19-06-12 15:08)
+    ✔ RODO_KOD @done(19-06-12 14:52)
+    ✔ POBI_KOD ??? @done(19-06-12 15:23)
+    ✔ STVA_KOD @done(19-06-12 15:57)
+    ✔ TYP_DOK_KSIEG @done(19-06-18 16:32)
+    ✔ KOD_PODATKU_SAP @done(19-06-18 16:32)
+    · TYP_DOK_KSIEG – atrybut na fakturze, może przyjmować wartości: N/D/U (rozlicz/korekta dodatnia/korekta ujemna). Wymiar jako taki nie jest potrzebny, bardziej w dokumencie chodziło o to aby w raportach możliwe było szybkie wyszukiwanie po tej wartości.
+    · KOD_PODATKU_SAP – KOPO_KOD, KOD PODATKU. W SCK w tabeli S_KODY_PODATKOW.KOD (Wymiarem może być ta tabelka).
+     
+    ## Do tabeli: 
+    ☐ W_JPK_FAKTURY_VAT + SQ??
+
+## JPK_VAT:
+    ☐ Przekształcenia
+
+Q&A:
+☐ Czym jest TYP_DOK_KSIEG?
+☐ Czym jest KOD_PODATKU_SAP?
+
+
+
+
+
 ✔ https://www.udemy.com/angular-4-aspnet-core-tworz-wasne-strony-internetowe/learn/v4/t/lecture/8610282?start=75 @done(19-02-24 22:54)
+
+# JPK zmiana widoku
+✔ Wsparcie w przeniesieniu + dokumentacja @done(19-06-04 15:52)
+
+✔ Struktury @done(19-06-04 15:52)
+✔ Zasilenie @done(19-06-04 15:52)
+✘ Wnioski @cancelled(19-06-04 15:53)
+    ✘ RODZAJ_DLA_JPK IN ('NETTO') @cancelled(19-06-04 15:53)
