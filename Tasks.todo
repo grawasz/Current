@@ -1,3 +1,6 @@
+Automaty:
+    ☐ if odbiorcy > 0
+
 G11-g:
     ☐ Średnia cena według wzoru (LDNI_FAKT(1) * c(1) + … + LDNI_FAKT(n) * c(n)) / ( LDNI_FAKT(1) + … + LDNI_FAKT(n) )
 
